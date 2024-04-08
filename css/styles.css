@@ -279,9 +279,7 @@ padding-bottom: 120px;
 text-align: center;
 }
 .portfolio-container {
-    padding: 32px 16px;
-    border: 1px solid #e7e9fc;
-    border-top: none;
+    
 
 }
 .portfolio-title {
@@ -298,6 +296,8 @@ margin-bottom: 72px;
     display: flex;
     flex-wrap: wrap;
     gap: 48px 24px;
+    padding-left: 0;
+    margin: 0;
 
 }
 .portfolio-item {
@@ -309,8 +309,9 @@ width: calc((100% - 48px) / 3);
 
 .portfolio-titles {
     text-align: left;
-padding-left: 16px;
-padding-bottom: 32px;
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
 }
 .portfolio-subtitle {
 font-weight: 500;
